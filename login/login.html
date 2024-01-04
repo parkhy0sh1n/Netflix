@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      http-equiv="origin-trial"
+      data-feature="EME Extension - Policy Check"
+      data-expires="2023-11-26"
+      content="Aob+++752GiUzm1RNSIkM9TINnQDxTlxz02v8hFJK/uGO2hmXnJqH8c/ZpI05b2nLsHDhGO3Ce2zXJUFQmO7jA4AAAB1eyJvcmlnaW4iOiJodHRwczovL25ldGZsaXguY29tOjQ0MyIsImZlYXR1cmUiOiJFbmNyeXB0ZWRNZWRpYUhkY3BQb2xpY3lDaGVjayIsImV4cGlyeSI6MTU0MzI0MzQyNCwiaXNTdWJkb21haW4iOnRydWV9"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Netflix :: 클론 코딩</title>
+    <link
+      rel="preload"
+      href="https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-v1a4b30c5/js/js/bootstrap.js,common%7Cbootstrap.js/2/4O034l4b4n4F4B06474v4N080p004P4q4K4i4x4o4J4d4w4z4f4e4I0a024L21/bck/true/none"
+      as="script"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../img/nficon2016.ico"
+      sizes="16x16"
+    />
+    <meta
+      content="watching movie, moive online, internet moive, watching tv, tv online, online tv shows, internet tv,&nbsp;streaming, movie streaming, streaming tv, recommend movie, &nbsp;movie, canada, no download, full HD video"
+      name="keywords"
+    />
+    <meta
+      content="Watch Netflix movies & TV shows online or stream right to your smart TV, game ..."
+      name="description"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="apple-touch-icon"
+      content="https://assets.nflxext.com/en_us/layout/ecweb/netflix-app-icon_152.jpg"
+    />
+    <meta
+      property="og:description"
+      content="Watch Netflix movies & TV shows online or stream right to your smart TV, game ..."
+    />
+    <meta
+      property="al:ios:url"
+      content="nflx://www.netflix.com/?locale=ko-KR"
+    />
+    <meta property="al:ios:app_store_id" content="363590051" />
+    <meta property="al:ios:app_name" content="Netflix" />
+    <meta
+      property="al:android:url"
+      content="nflx://www.netflix.com/?locale=ko-KR"
+    />
+    <meta property="al:android:package" content="com.netflix.mediaclient" />
+    <meta property="al:android:app_name" content="Netflix" />
+    <meta name="twitter:card" content="player" />
+    <meta name="twitter:site" content="@netflix" />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="css/login_style.css" />
+    <link rel="stylesheet" href="css/login_media.css" />
+
+    <script defer src="js/login.js"></script>
+  </head>
+
+  <body>
+    <header class="nav_wrap">
+      <nav>
+        <div id="logo" onclick="location.href='../index.html'">
+          <img src="../img/logo.png" style="width: 120px;">
+        </div>
+      </nav>
+    </header>
+
+    <section id="sign">
+      <div class="sign_wrap">
+        <div class="login_wrap">
+          <form action="login.php" id="login_form">
+            <div class="login_form_wrap">
+              <div class="login_main">
+                <h2>로그인</h2>
+                <div id="input_id">
+                  <div class="login_field_wrap">
+                    <span class="dash_bar"></span>
+                    <input type="email" id="login_id" name="id" />
+                    <label class="placelabel" for="login_id"
+                      >이메일 주소 또는 전화번호</label
+                    >
+                  </div>
+                  <div class="alert_wrap">
+                    <div class="id_alert">
+                      정확한 이메일 주소 또는 전화번호를 입력해주세요.
+                    </div>
+                    <div class="wrong_alert">
+                      정확한 이메일 주소를 입력해주세요.
+                    </div>
+                    <div class="wrong_alert">
+                      정확한 휴대폰 번호를 입력홰주세요.
+                    </div>
+                  </div>
+                </div>
+                <div id="input_password">
+                  <div class="login_field_wrap">
+                    <span class="dash_bar"></span>
+                    <input type="password" id="login_pw" name="pw" />
+                    <label class="placelabel" for="login_pw">비밀번호</label>
+                    <button type="button" class="pw_placelabel">표시</button>
+                  </div>
+                  <div class="alert_wrap">
+                    <div class="pw_alert">
+                      비밀번호는 4~60자 사이여야 합니다.
+                    </div>
+                  </div>
+                </div>
+                <input type="button" id="login_submit" value="로그인" />
+                <div class="remember_wrap">
+                  <input type="checkbox" name="remeber" id="remember" />
+                  <label for="remember" class="remember_label"
+                    >로그인 정보 저장</label
+                  >
+                  <p>도움이 필요하신가요?</p>
+                </div>
+              </div>
+              <div class="login_other">
+                <div class="facebook">
+                  <figure>
+                    <img src="img/FB-f-Logo__blue_57.png" alt="" />
+                  </figure>
+                  <span>페이스북 로그인</span>
+                </div>
+                <div class="signup_wrap">
+                  <p>Netflix 회원이 아닌가요?</p>
+                  <a href="#">지금 가입하세요&nbsp;</a>
+                </div>
+                <div class="captcha">
+                  <p>
+                    로그인 시 Google reCAPTCHA를 이용해 사용자가 로봇이 아님을 확인합니다.  <span>자세히 알아보기</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <footer>
+          <div class="footer_wrap footer_log">
+            <div class="footer_menu">
+              <ul id="login_footer_ul">
+                <li>
+                  <a href="#">자주 묻는 질문</a>
+                </li>
+                <li>
+                  <a href="#">쿠키 설정</a>
+                </li>
+                <li>
+                  <a href="#">고객 센터</a>
+                </li>
+                <li>
+                  <a href="#">회사 정보</a>
+                </li>
+                <li>
+                  <a href="#">이용 약관</a>
+                </li>
+                <li>
+                  <a href="#">개인정보 처리방침</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="footer_address_wrap">
+              <p class="contact">질문이 있으신가요? 문의 전화:  00-308-321-0161 (수신자 부담)</p>
+              <br>
+              <p class="site_info">
+                넷플릭스 대한민국<br><br>
+                넷플릭스서비시스코리아 유한회사 통신판매업신고번호: 제2018-서울종로-0426호 전화번호: 00-308-321-0161 (수신자 부담)<br>
+                대표: 레지널드 숀 톰프슨<br>
+                이메일 주소: korea@netflix.com<br>
+                주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161<br>
+                사업자등록번호: 165-87-00119<br>
+                클라우드 호스팅: Amazon Web Services Inc.<br>
+                공정거래위원회 웹사이트
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>

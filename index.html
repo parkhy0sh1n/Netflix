@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      http-equiv="origin-trial"
+      data-feature="EME Extension - Policy Check"
+      data-expires="2023-11-26"
+      content="Aob+++752GiUzm1RNSIkM9TINnQDxTlxz02v8hFJK/uGO2hmXnJqH8c/ZpI05b2nLsHDhGO3Ce2zXJUFQmO7jA4AAAB1eyJvcmlnaW4iOiJodHRwczovL25ldGZsaXguY29tOjQ0MyIsImZlYXR1cmUiOiJFbmNyeXB0ZWRNZWRpYUhkY3BQb2xpY3lDaGVjayIsImV4cGlyeSI6MTU0MzI0MzQyNCwiaXNTdWJkb21haW4iOnRydWV9"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Netflix :: 클론 코딩</title>
+    <link
+      rel="preload"
+      href="https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-v1a4b30c5/js/js/bootstrap.js,common%7Cbootstrap.js/2/4O034l4b4n4F4B06474v4N080p004P4q4K4i4x4o4J4d4w4z4f4e4I0a024L21/bck/true/none"
+      as="script"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/nficon2016.ico"
+      sizes="16x16"
+    />
+    <meta
+      content="watching movie, moive online, internet moive, watching tv, tv online, online tv shows, internet tv,&nbsp;streaming, movie streaming, streaming tv, recommend movie, &nbsp;movie, canada, no download, full HD video"
+      name="keywords"
+    />
+    <meta
+      content="Watch Netflix movies & TV shows online or stream right to your smart TV, game ..."
+      name="description"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="apple-touch-icon"
+      content="https://assets.nflxext.com/en_us/layout/ecweb/netflix-app-icon_152.jpg"
+    />
+    <meta
+      property="og:description"
+      content="Watch Netflix movies & TV shows online or stream right to your smart TV, game ..."
+    />
+    <meta
+      property="al:ios:url"
+      content="nflx://www.netflix.com/?locale=ko-KR"
+    />
+    <meta property="al:ios:app_store_id" content="363590051" />
+    <meta property="al:ios:app_name" content="Netflix" />
+    <meta
+      property="al:android:url"
+      content="nflx://www.netflix.com/?locale=ko-KR"
+    />
+    <meta property="al:android:package" content="com.netflix.mediaclient" />
+    <meta property="al:android:app_name" content="Netflix" />
+    <meta name="twitter:card" content="player" />
+    <meta name="twitter:site" content="@netflix" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <script defer src="js/index.js"></script>
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <!-- Hero -->
+      <section id="hero">
+        <div class="hero_wrap">
+          <nav class="nav_wrap">
+            <div class="nav">
+              <div id="logo" onclick="window.location.reload()">
+                <img src="img/logo.png" style="width: 120px;">
+              </div>
+              <button
+                class="bt_login"
+                onclick="location.href='login/login.html'"
+              >
+                로그인
+              </button>
+            </div>
+          </nav>
+          <div class="hero_title_wrap">
+            <h3 class="alert">
+              현재 웹 사이트는 Netflix 공식 홈페이지가 아닙니다.<br>
+              Netflix 클론 코딩을 위한 웹 사이트입니다.
+            </h3>
+            <h2 class="hero_title">대작 영화와 인기 시리즈, 그리고 게임까지!</h2>
+            <h3 class="hero_subtitle">지금 바로 가입하세요. 해지는 언제든 가능합니다.</h3>
+            <div class="hero_join_wrap">
+              <form action="" method="POST" class="email_form">
+                <button class="bt_join" type="button">
+                  멤버십 가입&nbsp;&nbsp;<span>⟩</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature -->
+      <section id="feature">
+        <div class="feature_wrap">
+          <ul class="tv feature_ul">
+            <li class="feature_text_wrap">
+              <h2 class="feature_title">TV로 즐기세요</h2>
+              <h3 class="feature_subtitle">
+                스마트 TV, PlayStation, Xbox, Chromecast, Apple TV, 블루레이 플레이어 등 다양한 디바이스에서 시청하세요.
+              </h3>
+            </li>
+            <li class="feature_content_wrap">
+              <div class="feature_content">
+                <img src="img/tv.png" alt="" class="tv_img" />
+                <div class="feature_video">
+                  <video
+                    src="img/video-tv-0819.m4v"
+                    autoplay
+                    muted
+                    loop
+                    class="tv_video"
+                  ></video>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="feature_wrap">
+          <ul class="feature_ul">
+            <li class="feature_text_wrap">
+              <h2 class="feature_title">어디서나 자유롭게 시청하세요</h2>
+              <h3 class="feature_subtitle">
+                각종 영화와 시리즈를 스마트폰, 태블릿, 노트북, TV에서 무제한으로 스트리밍하세요.
+              </h3>
+            </li>
+            <li class="feature_content_wrap">
+              <div class="feature_content_device">
+                <img src="img/device-pile.png" alt="" class="device_img" />
+                <div class="feature_video_device">
+                  <video
+                    src="img/video-devices.m4v"
+                    autoplay
+                    muted
+                    loop
+                    class="device_video"
+                  ></video>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="feature_wrap">
+          <ul class="offline feature_ul">
+            <li class="feature_content_wrap">
+              <div class="feature_content_offline">
+                <img src="img/mobile-0819.jpg" alt="" class="offline_img_1" />
+                <div class="feature_video_offline">
+                  <div class="offline_story">
+                    <img src="img/boxshot.png" alt="" />
+                  </div>
+                  <div class="offline_story_text">
+                    <div>기묘한 이야기</div>
+                    <div>저장 중...</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="feature_text_wrap">
+              <h2 class="feature_title">
+                즐겨 보는 콘텐츠를 저장해 오프라인으로 시청하세요
+              </h2>
+              <h3 class="feature_subtitle">
+                비행기, 기차, 잠수함. 어디서든 시청하세요.
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- faq -->
+      <section id="faq">
+        <div class="faq_wrap">
+          <h2 class="faq_title">자주 묻는 질문</h2>
+          <div class="faq_list_wrap">
+            <div class="faq_list">
+              <h3 class="faq_list_title">
+                넷플릭스에서 어떤 콘텐츠를 시청할 수 있나요?
+                <span class="openstate_icon">+</span>
+              </h3>
+              <div class="faq_list_answer">
+                <p>
+                  넷플릭스는 장편 영화, 다큐멘터리, 시리즈, 애니메이션, 각종 상을 수상한 넷플릭스 오리지널 등 수많은 콘텐츠를 확보하고 있습니다. 마음에 드는 콘텐츠를 원하는 시간에 원하는 만큼 시청하실 수 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="faq_list">
+              <h3 class="faq_list_title">
+                넷플릭스란 무엇인가요?
+                <span class="openstate_icon">+</span>
+              </h3>
+              <div class="faq_list_answer">
+                <p>
+                  넷플릭스는 각종 수상 경력에 빛나는 시리즈, 영화, 애니메이션, 다큐멘터리 등 다양한 콘텐츠를 인터넷 연결이 가능한 수천 종의 디바이스에서 시청할 수 있는 스트리밍 서비스입니다.
+                  <br><br>
+                  저렴한 월 요금으로 원하는 시간에 원하는 만큼 즐길 수 있습니다. 무궁무진한 콘텐츠가 준비되어 있으며 매주 새로운 시리즈와 영화가 제공됩니다.
+                </p>
+              </div>
+            </div>
+            <div class="faq_list">
+              <h3 class="faq_list_title">
+                넷플릭스 요금은 얼마인가요?
+                <span class="openstate_icon">+</span>
+              </h3>
+              <div class="faq_list_answer">
+                <p>
+                  스마트폰, 태블릿, 스마트 TV, 노트북, 스트리밍 디바이스 등 다양한 디바이스에서 월정액 요금 하나로 넷플릭스를 시청하세요. 멤버십 요금은 월 5,500원부터 17,000원까지 다양합니다. 추가 비용이나 약정이 없습니다.
+                </p>
+              </div>
+            </div>
+            <div class="faq_list">
+              <h3 class="faq_list_title">
+                어디에서 시청할 수 있나요?
+                <span class="openstate_icon">+</span>
+              </h3>
+              <div class="faq_list_answer">
+                <p>
+                  언제 어디서나 시청할 수 있습니다. 넷플릭스 계정으로 로그인하면 PC에서 netflix.com을 통해 바로 시청할 수 있으며, 인터넷이 연결되어 있고 넷플릭스 앱을 지원하는 디바이스(스마트 TV, 스마트폰, 태블릿, 스트리밍 미디어 플레이어, 게임 콘솔 등)에서도 언제든지 시청할 수 있습니다.
+                  <br /><br />
+                  iOS, Android, Windows 10용 앱에서는 좋아하는 시리즈를 저장할 수도 있습니다. 저장 기능을 이용해 이동 중이나 인터넷에 연결할 수 없는 곳에서도 시청하세요. 넷플릭스는 어디서든 함께니까요.
+                </p>
+              </div>
+            </div>
+            <div class="faq_list">
+              <h3 class="faq_list_title">
+                멤버십을 해지하려면 어떻게 하나요?
+                <span class="openstate_icon">+</span>
+              </h3>
+              <div class="faq_list_answer">
+                <p>
+                  넷플릭스는 부담 없이 간편합니다. 성가신 계약도, 약정도 없으니까요. 멤버십 해지도 온라인에서 클릭 두 번이면 완료할 수 있습니다. 해지 수수료도 없으니 원할 때 언제든 계정을 시작하거나 종료하세요.
+                </p>
+              </div>
+            </div>
+            <div class="faq_list">
+              <h3 class="faq_list_title">
+                아이들이 넷플릭스를 봐도 좋을까요?
+                <span class="openstate_icon">+</span>
+              </h3>
+              <div class="faq_list_answer">
+                <p>
+                  멤버십에 넷플릭스 키즈 환경이 포함되어 있어 자녀가 자기만의 공간에서 가족용 시리즈와 영화를 즐기는 동안 부모가 이를 관리할 수 있습니다.
+                  <br><br>
+                  키즈 프로필과 더불어 PIN 번호를 이용한 자녀 보호 기능도 있어, 자녀가 시청할 수 있는 콘텐츠의 관람등급을 제한하고 자녀의 시청을 원치 않는 특정 작품을 차단할 수도 있습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero_faq_wrap">
+            <button class="faq_bt_join" type="button">
+              멤버십 가입&nbsp;&nbsp;<span>⟩</span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer_wrap">
+        <div class="footer_menu">
+          <ul>
+            <li>
+              <a href="#">자주 묻는 질문</a>
+            </li>
+            <li>
+              <a href="#">투자 정보</a>
+            </li>
+            <li>
+              <a href="#">개인정보 처리방침</a>
+            </li>
+            <li>
+              <a href="#">속도 테스트</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">고객 센터</a>
+            </li>
+            <li>
+              <a href="#">입사 정보</a>
+            </li>
+            <li>
+              <a href="#">쿠키 설정</a>
+            </li>
+            <li>
+              <a href="#">법적 고지</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">계정</a>
+            </li>
+            <li>
+              <a href="#">넷플릭스 지원 디바이스</a>
+            </li>
+            <li>
+              <a href="#">회사 정보</a>
+            </li>
+            <li>
+              <a href="#">오직 넷플릭스에서</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">미디어 센터</a>
+            </li>
+            <li>
+              <a href="#">이용 약관</a>
+            </li>
+            <li>
+              <a href="#">문의하기</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_address_wrap">
+          <p class="contact">질문이 있으신가요? 문의 전화:  00-308-321-0161 (수신자 부담)</p>
+          <br>
+          <p class="site_info">
+            넷플릭스 대한민국<br><br>
+            넷플릭스서비시스코리아 유한회사 통신판매업신고번호: 제2018-서울종로-0426호 전화번호: 00-308-321-0161 (수신자 부담)<br>
+            대표: 레지널드 숀 톰프슨<br>
+            이메일 주소: korea@netflix.com<br>
+            주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161<br>
+            사업자등록번호: 165-87-00119<br>
+            클라우드 호스팅: Amazon Web Services Inc.<br>
+            공정거래위원회 웹사이트
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
