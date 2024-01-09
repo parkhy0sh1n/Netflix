@@ -299,7 +299,7 @@
   height: 3em;
   outline: 2px solid #000;
   outline-offset: -2px;
-  background: url(../img/download-icon.gif) center center no-repeat;
+  background: url(../download-icon.gif) center center no-repeat;
   background-size: 100%;
   content: "";
   display: block;
